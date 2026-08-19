@@ -16,6 +16,7 @@ as specified).
 - `4_evaluate.py`: accuracy/precision/recall/F1/confusion matrix/classification report (Task 7)
 - `5_feature_maps.py`: visualizes at least 8 feature maps from the first convolutional layer of the trained model (Task 4)
 - `6_pooling_comparison.py`: confirms max and average pooling produce identical output sizes, then trains both variants to compare accuracy (Task 5)
+- `7_filter_count_comparison.py`: for comparison of the effect of accuracy on number of filter size(additional task)
 
 The numbers in these filenames are the order to run them in, which is
 not quite the same as the task order in the lab manual, since Task 4
@@ -34,6 +35,7 @@ python 3_train_model.py
 python 4_evaluate.py
 python 5_feature_maps.py
 python 6_pooling_comparison.py
+python 7_filter_count_comparison.py
 ```
 
 `4_evaluate.py` and `5_feature_maps.py` both need `3_train_model.py` to
